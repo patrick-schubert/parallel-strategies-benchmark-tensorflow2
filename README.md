@@ -31,9 +31,14 @@ As the results reported, was better to send "batch data" to cpu, reduce there an
 
 This was an old problem from early 2018, and was affecting hugelly the productivity of the AI group, but then we got some promissing directions to improve overall performance of the group.
 
-![bench1](https://github.com/patrick-schubert/parallel-strategies-benchmark-tensorflow2/blob/main/benchmark1.jpeg)
-![bench2](https://github.com/patrick-schubert/parallel-strategies-benchmark-tensorflow2/blob/main/benchmark2.jpeg)
-
-
-
+<table border="0">
+<tr>
+    <td>
+    <img src="https://github.com/patrick-schubert/parallel-strategies-benchmark-tensorflow2/blob/main/benchmark1.jpeg" width="100%" />
+    </td>
+    <td>
+    <img src="https://github.com/patrick-schubert/parallel-strategies-benchmark-tensorflow2/blob/main/benchmark2.jpeg", width="100%" />
+    </td>
+</tr>
+</table>
 

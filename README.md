@@ -18,7 +18,9 @@ I was working with a multi-gpu workstation and realised that despite of having 4
 The NCCL is one of many other parallel strategies that could be used to make communications between devices. For Deep Learning training, is the best one given that for GPUs is better to reduce the batch in every single GPU than to communicate across devices to send their "reduced batch data", due to their extremelly fast vectorized computations.
 
 (Deep Learning training time)
+
 CPU: GPU, why don't you talk to me anymore?
+
 GPU: I would rather sum than communicate :p
 
 ![parallelstrategies](https://github.com/patrick-schubert/parallel-strategies-benchmark-tensorflow2/blob/main/paralle-strategies.jpeg)
